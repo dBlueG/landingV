@@ -56,4 +56,4 @@ dump sorted;
 dump top5;
 
 
-STORE Summary INTO '/user/cloudera/Volve/Logs/EnterpriseData/PIG/Summary.txt' USING PigStorage (',');
+STORE Summary INTO '/user/cloudera/Volve/Logs/EnterpriseData/PIG/Summary' USING PigStorage (',');
